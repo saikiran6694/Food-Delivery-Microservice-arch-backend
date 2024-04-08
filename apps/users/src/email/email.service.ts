@@ -5,7 +5,7 @@ type mailOptions = {
   subject: string;
   email: string;
   name: string;
-  activationCode: number;
+  activationCode: any;
   template: string;
 };
 
